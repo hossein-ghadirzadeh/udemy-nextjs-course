@@ -14,7 +14,11 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Pages & File-based Routing in Next.js
 
+<<<<<<< HEAD
 <p>Quick compare file-based routing which we have in Next.js to standard code-based routing we have in React apps with react-router as follows:</p>
+=======
+<p>Quick compare file-based routing which we have in Next.js to standard code-based routing we have in React apps with react-router as follow:</p>
+>>>>>>> a0a9a444ef1a6bb00f708d27ce337d8c750caada
 <ul>
     <li>
         In React.js, route configuration is needed to write React components when using react-router (<code>Switch</code>, <code>Route</code>, ...).
