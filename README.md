@@ -2,37 +2,33 @@
 
 Learn NextJS from the ground up and build production-ready, fullstack ReactJS apps with the NextJS framework!
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
-First, run the development server:
-
 ```bash
-npm run dev
-# or
-yarn dev
+npm install > npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+# Overview
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Pages & File-based Routing in Next.js
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<p>Quick compare file-based routing which we have in Next.js to standard code-based routing we have in React apps with react-router as follows:</p>
+<ul>
+    <li>
+        In React.js, route configuration is needed to write React components when using react-router (<code>Switch</code>, <code>Route</code>, ...).
+        <br/>
+        In Next.js, no extra boilerplate code required in the file-based routing system. we just simply create component files.
+    </li>
+    <li>
+        The file-based routing system is more intuitive and easier to set up. versus in the react-router system, it is definitely straightforward but includes new components & concepts.
+    </li>
+    <li>
+        In React.js, File & folder setup does not matter at all.
+        In Next.js, File & folder structure (in pages/folder) influences routes.
+    </li>
+    <li>
+        No differences with navigation, both of them, can navigate between components with <b><code>Link</code></b>.
+    </li>
+</ul>
